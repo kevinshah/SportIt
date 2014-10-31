@@ -1,0 +1,482 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/try9">
+
+
+  <com.example.sportit.CustomFont  
+    android:id="@+id/txt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_weight="1"
+    android:text="                      "
+    android:textSize="30dip"
+   	
+    android:textColor="#808080"
+   	android:layout_marginBottom="16dp"
+   	android:layout_marginLeft="10dp"
+   	android:layout_marginTop="11dp"
+   	
+    />
+    
+    <ImageButton
+        android:id="@+id/forwardToMap"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@+drawable/button_selector"
+        android:textColor="#808080"
+        android:onClick = "changeView"
+        android:layout_marginTop="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        />
+    
+    
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_marginTop="14dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/txt">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+  >
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:textSize="22dip"
+      
+        android:gravity="center_vertical"
+        android:text="Badminton" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"
+        />
+    <CheckedTextView
+        android:id="@+id/checkedTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:textSize="22dip"
+       
+        android:gravity="center_vertical"
+        android:text="Baseball" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    <CheckedTextView
+        android:id="@+id/checkedTextView3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:textSize="22dip"
+       
+        android:gravity="center_vertical"
+        android:text="Basketball" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    <CheckedTextView
+        android:id="@+id/checkedTextView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:textSize="22dip"
+       
+        android:gravity="center_vertical"
+        android:text="Bowling" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    <CheckedTextView
+        android:id="@+id/checkedTextView5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+        android:onClick="onClick"
+   
+        android:gravity="center_vertical"
+        android:text="Canoeing" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    <CheckedTextView
+        android:id="@+id/checkedTextView6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Cricket" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    <CheckedTextView
+        android:id="@+id/checkedTextView7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Cycling" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    <CheckedTextView
+        android:id="@+id/checkedTextView8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Diving" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    
+    <CheckedTextView
+        android:id="@+id/checkedTextView9"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Fencing" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    
+    <CheckedTextView
+        android:id="@+id/checkedTextView9"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Fishing" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    
+    <CheckedTextView
+        android:id="@+id/checkedTextView10"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Football" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    
+    <CheckedTextView
+        android:id="@+id/checkedTextView11"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Golf" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    
+    <CheckedTextView
+        android:id="@+id/checkedTextView12"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Hockey" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    
+    <CheckedTextView
+        android:id="@+id/checkedTextView13"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Lacrosse" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    
+    <CheckedTextView
+        android:id="@+id/checkedTextView13"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Paint Ball" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    
+    <CheckedTextView
+        android:id="@+id/checkedTextView14"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Racquetball" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    
+    <CheckedTextView
+        android:id="@+id/checkedTextView15"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Rock Climbing" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    
+    <CheckedTextView
+        android:id="@+id/checkedTextView15"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Rugby" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    
+    <CheckedTextView
+        android:id="@+id/checkedTextView16"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Snow Boarding" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    
+    <CheckedTextView
+        android:id="@+id/checkedTextView17"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Soccer" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    
+    <CheckedTextView
+        android:id="@+id/checkedTextView18"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Surfing" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    
+    <CheckedTextView
+        android:id="@+id/checkedTextView19"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Tennis" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    
+    <CheckedTextView
+        android:id="@+id/checkedTextView20"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Track and Field" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    
+    <CheckedTextView
+        android:id="@+id/checkedTextView21"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Volleyball" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    
+    <CheckedTextView
+        android:id="@+id/checkedTextView22"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Water Polo" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    
+    <CheckedTextView
+        android:id="@+id/checkedTextView23"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:textSize="22dip"
+
+        android:gravity="center_vertical"
+        android:text="Yoga" />
+    <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dp"
+         android:background="#c0c0c0"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+	</LinearLayout>
+	</ScrollView>
+
+</RelativeLayout>

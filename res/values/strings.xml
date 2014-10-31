@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SportIt</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_create_account">CreateAccount</string>
+    <string name="text"><u>CreateAccount</u></string>
+    <string name="title_activity_list_of_activities">ListOfActivities</string>
+    <string name="title_activity_google_maps_view">GoogleMapsView</string>
+    <string name="title_activity_listof_activites">ListofActivites</string>
+    <string name="activites"><u>Choose your Activity!</u></string>
+
+    <color name="lightblue">#696969</color>
+
+    <string name="title_activity_create_new_event">CreateNewEvent</string>
+    
+    
+    
+       <string-array name="activityList">
+        <item>Badminton</item>
+        <item>Baseball</item>
+        <item>Basketball</item>
+        <item>Bowling</item>
+        <item>Canoeing</item>
+        <item>Cricket</item>
+        <item>Cycling</item>
+        <item>Diving</item>
+        <item>Fencing</item>
+        <item>Fishing</item>
+        <item>Football</item>
+        <item>Golf</item>
+        <item>Hockey</item>
+        <item>Lacrosse</item>
+        <item>Paint Ball</item>
+        <item>Racquetball</item>
+        <item>Rock Climbing</item>
+        <item>Rugby</item>
+        <item>Snow Boarding</item>
+        <item>Soccer</item>
+        <item>Surfing</item>
+        <item>Tennis</item>
+        <item>Track and Field</item>
+        <item>Volleyball</item>
+        <item>Water Polo</item>
+        <item>Yoga</item>
+    </string-array>
+
+    <string-array name="minuteList">
+'       <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+    </string-array>
+    <string-array name="hourList">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+    <string-array name="List">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    
+    <string name="app_id"><u>706024139435686</u></string>
+    <string name="login"><u>Login with Facebook</u></string>
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="ok">OK</string>
+    <string name="hello_user">Hello %1$s!</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Successfully posted \'%1$s\'.\nPost ID: %2$s</string>
+    <string name="error">Error</string>
+
+    <string name="exception">Exception: %1$s</string>
+    
+    <string name="title_activity_loginfb">Loginfb</string>
+    <string name="title_activity_flogin">Flogin</string>
+    
+    
+
+</resources>
